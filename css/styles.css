@@ -1,0 +1,200 @@
+.bg-blue{
+    background: linear-gradient(to bottom,black,#1362c2, #0f097f,#1362c2,black);
+}
+
+.bg-green{
+    color: aliceblue;
+    background-color: #32cd32;
+}
+.bg-green:hover{
+    box-shadow: 0px 0px 10px 2px green;
+}
+
+.titulo-h2,.titulo-h3{
+    background: linear-gradient(to bottom,black,#1362c2, #0f097f,#1362c2,black);
+    color: #f0f0f0;
+    font-family: 'Luckiest Guy', cursive;
+    width: 400px;
+    padding: 5px;
+}
+
+.btn{
+    border: 5px solid black;
+    color: black;
+}
+.btn:hover{
+    box-shadow: 0 0 8px 2px black;
+    border: 5px solid black;
+}
+
+.btn-font{
+    font-size: 25px;
+}
+.btn-agendamento{
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    margin-left: 40%;
+    border: 4px solid #0f097f;
+}
+.btn-agendamento:hover {
+    box-shadow: #1362c2 0px 0px 15px 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
+/*font-family: 'Open Sans', sans-serif;  font-family: 'Luckiest Guy', cursive;*/
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/fundo.jpg') center/cover no-repeat fixed;
+    /* Adiciona um degradê preto transparente por cima da imagem */
+    background-color: #f0f0f0; /* Cor de fundo normal */
+    height: 100vh;
+    
+  }
+  
+  
+.dupla-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.img-esquerda{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../src/ferramenta1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.img-direita{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../src/ferramenta2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+.primeira-imagem{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url(../src/salao1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: justify;
+}
+
+.segunda-imagem{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url(../src/salao2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.terceira-imagem{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url(../src/salao3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.primeira-imagem,.segunda-imagem,.terceira-imagem h2{
+    padding-top: 400px;
+}
+
+.texto-principal{
+    margin-top: 100px;
+    margin: 20px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.texto-principal h1{
+    margin-top: 150px;
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 50px;
+}
+
+
+
+
+.nav-link{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+footer{
+    height: 100px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-top: 420px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  th, td {
+    
+    padding: 15px;
+    text-align: left;
+    color: #1362c2;
+    font-size: 20px;
+  }
+
+  th {
+    background-color: #3498db;
+    color: #fff;
+    border: 4px dashed black;
+  }
+
+  td{
+    border: 3px dashed #3498db;
+    background-color: black;
+  }
+
+  h2 {
+    color: #3498db;
+  }
